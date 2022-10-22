@@ -16,7 +16,7 @@ class LoginActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
 
-        getSupportActionBar()?.setTitle(Html.fromHtml("<font color=\"#000000\">" + getString(R.string.app_name) + "</font>"))
+        //getSupportActionBar()?.setTitle(Html.fromHtml("<font color=\"#000000\">" + getString(R.string.app_name) + "</font>"))
 
         // Check if there' a user logged in
         // If there is, take them to MainActivity
